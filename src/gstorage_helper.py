@@ -88,7 +88,7 @@ def rename_blob(bucket_name, blob_name, new_name):
     print('Blob {} has been renamed to {}'.format(
         blob.name, new_blob.name))
 
-
+#call upload_blob
 #path = os.path.abspath("Brand_Partnership_Report_Unilever-SEA_2017-04-02.xlsx")
 #sourceFileName = path
 #destinationBlobName = "b/Copy of Brand_Partnership_Report_Unilever-SEA_2017-04-02.xlsx"
